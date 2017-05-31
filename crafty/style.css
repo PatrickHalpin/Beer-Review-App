@@ -1,0 +1,407 @@
+/*
+#f3f3f3 
+white
+
+#2c3132 
+grey
+
+#ff0f54 
+pink
+*/
+
+@font-face 
+{
+    font-family: Bitter;
+    src: url(fonts/Bitter-Regular.otf);
+
+}
+
+@font-face 
+{
+    font-family: chivo;
+    src: url(fonts/NotoSans-Bold.ttf);
+}
+
+.empty
+{
+  text-align:center;
+  font-size: 20;
+  margin-top: 5vh;
+  color:#ff0f54 ;
+}
+
+.upload
+{
+  text-align: center;
+  color: #f3f3f3 ;
+  padding: 1%;
+}
+.drinkName
+{
+    font-family: chivo;
+    font-size: 16;
+    color: #f3f3f3 ;
+}
+
+.subName
+{
+  font-size: 13;
+  color: #f3f3f3 ;
+}
+
+#bar
+{
+z-index: 999;
+position: fixed;
+width: 100vw;
+background: #2c3132 ;
+}
+
+.drinkHead
+{
+  font-family: chivo;
+  font-size:25;
+}
+.link
+{
+  margin-top: 5%;
+  color: #ff0f54 ;
+}
+
+.link:hover
+{
+  margin-top: 5%;
+  color: #f3f3f3 ;
+}
+
+#login
+{
+  margin-top: 2vh;
+}
+#logSub
+{
+  background-color:#2c3132 ;
+  text-align:center;
+  padding-top: 5%;
+  padding-bottom: 5%;  
+  font-family: chivo;
+  color: #f3f3f3 ;
+}
+
+.logs
+{
+margin-bottom: 4%;
+color: black;
+border: none;
+}
+
+.img2
+{
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.img3
+{
+  margin-top: 5%;
+  object-fit: cover;
+  min-width: 75%;
+  max-width: 75%;
+  max-height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.rating
+{
+  margin-top: 5vh;
+  text-align:center;
+}
+
+.img
+{
+
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  height: 25vh;
+}
+
+.card
+{
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card:hover 
+{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card
+{
+  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logcard
+{
+  border-radius: 10% 10% 0% 0%;
+  margin-bottom: 10%;
+  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardHead
+{
+  height: 25vh;
+  background-color: #d84b42;
+  margin-top: 5vh;
+}
+
+.cardSub
+{
+  padding-top: 7%;
+  min-height: 20vh;
+  background-color: #2c3132 ;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.cardBtn
+{
+  font-family: Bitter;
+  border: none;
+  color: #f3f3f3;
+  background-color: #ff0f54 ;
+  margin-top: 7%;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 4px;
+
+
+}
+.cardBtn:hover
+{
+  background-color:  #232323;
+  color: #f3f3f3;
+}
+
+.btnAdded
+{
+	font-family: Bitter;
+  border: none;
+  background-color:  #232323;
+  color: #f3f3f3;
+  margin-top: 7%;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 4px;
+}
+
+#spacer
+{
+  height: 10%;
+}
+
+.review
+{
+  margin-top: 7vh;
+  font-family: Bitter;
+  font-size: 20px;
+  color:#2c3132;
+  text-align:center;
+}
+.revSub
+{
+  background-color: #1a1818;
+  padding-bottom: 1%; 
+}
+
+.subBtn
+{
+  border: none;
+  color: white;
+  background-color: #ff0f54;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 4px;
+}
+.subBtn:hover
+{
+
+  background-color: #232323;  
+
+}
+
+
+.input
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 25vh;
+    font: arial;
+    color: black;
+}
+
+.rat
+{
+  font: arial;
+  color: black;
+  text-align:center;
+}
+
+#submit
+{
+  margin-top: 3%;
+  border: none;
+  background-color: white;
+  padding-left: 5px;
+  font-size: 20;
+  border-bottom: 3px solid #d84b42;
+}
+
+#submit:hover
+{
+  border-top: 3px solid white;
+  border-bottom:none;
+}
+
+.name
+{
+    font-family: chivo;
+    font-size: 20px;
+    color: #f3f3f3;
+    padding-left: 2%;     
+}
+
+.subtxt
+{
+    font-size: 20px;
+    color: #BA2323;
+    padding-left: 2%;
+}
+
+.vert
+{
+  line-height: 50px;
+}
+
+#body
+{
+  padding-left: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+/*Hamburger icon*/
+#ham 
+{
+  z-index: 1000;
+  font-size: 50;
+  padding-left: 1%;
+  color:#f3f3f3;
+/*  color: #f0963c;
+*/}
+
+.box
+{
+  margin-left: 3vh;
+  margin-right: 3vh;
+  padding-left: 0;
+  background-color: #2c3132 ;
+  margin-top: 7vh;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image
+{
+  min-width: 100px;
+  max-width: 100px;
+  min-height:100px;
+  max-height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+
+}
+
+
+/* The Overlay (background) */
+.overlay 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+.overlay-content 
+{
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+.overlay a 
+{
+    padding: 8px;
+    text-decoration: none;
+    font-family: Bitter;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus 
+{
+    color: #ff0f54 ;
+    text-decoration:none;
+}
+
+.overlay .closebtn
+{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) 
+{
+    .overlay a
+     {
+     	font-size: 20px
+     }
+    .overlay .closebtn 
+    {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
